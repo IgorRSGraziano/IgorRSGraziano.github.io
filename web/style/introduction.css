@@ -1,3 +1,13 @@
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.introduction img {
+    width: 300px;
+}
+
 .introduction-occupation {
     color: var(--accent-color);
     
@@ -26,11 +36,14 @@
     font-size: 1.1rem;
 }
 
+
 .introduction-curriculum {
     border: var(--accent-color) 2px solid;
     border-radius: 4px;
     padding: 10px 20px;
     color: var(--accent-color);
+    display: inline-block;
+    margin: 10px 0px;
 }
 
 .introduction-curriculum:hover {
@@ -39,3 +52,4 @@
     text-shadow: 1px 1px 6px rgb(82, 82, 82);
     transition: 0.3s;
 }
+
