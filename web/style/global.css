@@ -1,0 +1,30 @@
+/* Cores principais */
+:root {
+    --accent-color: #73ece5;
+    --primary-color: #202632;
+    --secondary-color: #2b3443;
+
+    --primary-text-color: white;
+    --secondary-text-color: #797f8d;
+}
+
+/* Definições Globais */
+body {
+    margin: 0;
+}
+
+header {
+    display: flex; 
+    flex-wrap: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: unset
+}
+
+.background {
+    background-color: var(--secondary-color);
+    width: 100vw;
+    height: 100vh;
+}
