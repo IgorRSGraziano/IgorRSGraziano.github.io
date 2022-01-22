@@ -9,6 +9,9 @@
 }
 
 /* Definições Globais */
+html{
+    background-color: var(--secondary-color);
+}
 
 body {
     margin: 0;
@@ -22,10 +25,4 @@ h1, h2 {
 a {
     text-decoration: none;
     color: unset
-}
-
-.background {
-    background-color: var(--secondary-color);
-    width: 100vw;
-    height: 100vh;
 }
