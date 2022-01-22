@@ -1,0 +1,41 @@
+.introduction-occupation {
+    color: var(--accent-color);
+    
+}
+
+.introduction-occupation::before {
+    content: "> ";
+    font-size: 1.1rem;
+}
+
+@keyframes underline {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.introduction-occupation::after {
+    content: " _";
+    animation-name: underline;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2, jump-none);
+    font-size: 1.1rem;
+}
+
+.introduction-curriculum {
+    border: var(--accent-color) 2px solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: var(--accent-color);
+}
+
+.introduction-curriculum:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+    text-shadow: 1px 1px 6px rgb(82, 82, 82);
+    transition: 0.3s;
+}

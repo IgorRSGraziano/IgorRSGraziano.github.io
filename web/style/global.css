@@ -9,13 +9,14 @@
 }
 
 /* Definições Globais */
+
 body {
     margin: 0;
+    color: var(--secondary-text-color);
 }
 
-header {
-    display: flex; 
-    flex-wrap: nowrap;
+h1, h2 {
+    color: var(--primary-text-color);
 }
 
 a {

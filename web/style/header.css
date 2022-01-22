@@ -1,5 +1,10 @@
 /* Menu de navegação */
 
+header {
+    display: flex; 
+    flex-wrap: nowrap;
+}
+
 .container-one-name {
     font-weight: bold;
     color: var(--primary-text-color);
