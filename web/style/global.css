@@ -11,6 +11,7 @@
 /* Definições Globais */
 html{
     background-color: var(--secondary-color);
+    position: relative;
 }
 
 body {

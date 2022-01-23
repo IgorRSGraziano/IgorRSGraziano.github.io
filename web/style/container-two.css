@@ -1,20 +1,27 @@
-.container-one {
+.container-two {
     padding: 20px 50px 0px;
     width: 40vw;
     background-color: var(--primary-color);
-    margin: 10vh 0px 0% 20vh;
+    margin: 0px 20vh 0px 0px;
     height: 87vh;
     border-radius: 7px;
-    position: absolute;
-    z-index: 1;
+    z-index: 0;
 }
 
-.container-one {
+.container-two {
     box-shadow: unset;
     transition: .6s;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
-.container-one:hover {
+.container-two:hover {
     box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.185);
     transition: .7s;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px;
 }

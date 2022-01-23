@@ -3,12 +3,16 @@
 header {
     display: flex; 
     flex-wrap: nowrap;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .container-one-name {
     font-weight: bold;
     color: var(--primary-text-color);
     align-self: center;
+    font-size: 1.4rem;
 }
 
 .container-one-name::before {

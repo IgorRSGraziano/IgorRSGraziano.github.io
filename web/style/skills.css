@@ -1,0 +1,17 @@
+
+.skills-list {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.skills-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills-list img {
+    width: 70px;
+}
