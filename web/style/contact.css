@@ -1,0 +1,34 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h2 {
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.contact img {
+    width: 30px;
+}
+
+.means-of-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+}
+
+.means-of-contact li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: .2s;
+}
+
+.means-of-contact li:hover {
+    color: var(--primary-text-color);
+    transition: .2s;
+}
