@@ -6,7 +6,6 @@ export default function writeAnimation() {
         textArray.forEach((letter, index) => {
             setTimeout(() => textElement.innerHTML += letter, 80 * index)
         })
-        console.log(textElement.textContent.split(''))
     }
     typeWriter(textToWrite)
 }

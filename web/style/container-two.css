@@ -5,23 +5,22 @@
     margin: 0px 20vh 0px 0px;
     height: 87vh;
     border-radius: 7px;
-    z-index: 0;
-}
-
-.container-two {
-    box-shadow: unset;
-    transition: .6s;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.185);
+    transition: .7s;
     position: absolute;
     top: 0px;
     right: 0px;
 }
 
-.container-two:hover {
-    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.185);
-    transition: .7s;
-}
-
 h2 {
     text-align: center;
     margin: 30px;
+}
+
+[data-main-container="false"] {
+    filter: blur(1px);
+}
+
+[data-main-container="true"] {
+    z-index: 1;
 }

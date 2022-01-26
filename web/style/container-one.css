@@ -7,14 +7,14 @@
     border-radius: 7px;
     position: absolute;
     z-index: 1;
-}
-
-.container-one {
-    box-shadow: unset;
-    transition: .6s;
-}
-
-.container-one:hover {
     box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.185);
     transition: .7s;
+}
+
+[data-main-container="false"] {
+    filter: blur(1px);
+}
+
+[data-main-container="true"] {
+    z-index: 1;
 }
