@@ -2,8 +2,9 @@
     padding: 20px 50px 0px;
     width: 40vw;
     background-color: var(--primary-color);
-    margin: 10vh 0px 0% 20vh;
-    height: 87vh;
+    margin: 10vh 0px 0% 12vh;
+    max-height: 100vh;
+    min-height: 87vh;
     border-radius: 7px;
     position: absolute;
     z-index: 1;

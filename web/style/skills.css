@@ -3,6 +3,7 @@
     display: flex;
     gap: 100px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skills-list li {
@@ -14,4 +15,14 @@
 
 .skills-list img {
     width: 70px;
+}
+
+@media (max-width: 900px) {
+    .skills-list {
+        gap: 20px;
+        font-size: .9rem;
+    }
+    .skills-list img {
+        width: 40px;
+    }
 }

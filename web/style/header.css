@@ -63,3 +63,21 @@ nav a:after {
  nav a:hover::after {
     width: 100%;
   }
+
+@media (max-width: 1330px) {
+      header {
+          flex-wrap: wrap;
+      }
+      header ul {
+        padding: 0px;
+      }
+      .container-one-name {
+          padding-top: 30px;
+      }
+  }
+
+  @media (max-width: 900px) {
+    nav ul {
+        gap: 12px;
+    }
+}

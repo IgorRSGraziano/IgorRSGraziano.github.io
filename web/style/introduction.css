@@ -2,10 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .introduction img {
-    width: 300px;
+    max-width: 250px;
+    height: 100%;
 }
 
 .introduction h1 {
@@ -15,6 +18,10 @@
 
 .introduction-information {
     max-width: 500px;
+}
+
+.introduction-information p {
+    max-width: 38ch;
 }
 
 .introduction-occupation {
@@ -60,5 +67,12 @@
     color: var(--primary-text-color);
     text-shadow: 1px 1px 6px rgb(82, 82, 82);
     transition: 0.3s;
+}
+
+@media (max-width: 1300px) {
+    .introduction img {
+        display: none;
+    }
+    
 }
 
