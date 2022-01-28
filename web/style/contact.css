@@ -28,11 +28,6 @@
     transition: .2s;
 }
 
-/* .means-of-contact li:hover {
-    color: var(--primary-text-color);
-    transition: .2s;
-} */
-
 .means-of-contact svg {
     width: 30px;
     height: 30px;
