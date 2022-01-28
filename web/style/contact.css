@@ -28,19 +28,24 @@
     transition: .2s;
 }
 
-.means-of-contact li:hover {
+/* .means-of-contact li:hover {
     color: var(--primary-text-color);
     transition: .2s;
-}
+} */
 
 .means-of-contact svg {
-    fill: var(--secondary-text-color);
     width: 30px;
     height: 30px;
     transition: .2s;
 }
 
-.means-of-contact svg:hover {
-    fill: var(--primary-text-color);
+.means-of-contact a {
+    fill: var(--secondary-text-color);
     transition: .2;
+}
+
+.means-of-contact li a:hover {
+    color: var(--primary-text-color);
+    fill: var(--primary-text-color);
+    transition: .2s;
 }
