@@ -32,3 +32,15 @@
     color: var(--primary-text-color);
     transition: .2s;
 }
+
+.means-of-contact svg {
+    fill: var(--secondary-text-color);
+    width: 30px;
+    height: 30px;
+    transition: .2s;
+}
+
+.means-of-contact svg:hover {
+    fill: var(--primary-text-color);
+    transition: .2;
+}
