@@ -1,9 +1,10 @@
 
 .skills-list {
     display: flex;
-    gap: 100px;
+    gap: 5vw;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0px;
 }
 
 .skills-list li {
@@ -14,15 +15,16 @@
 }
 
 .skills-list img {
-    width: 70px;
+    width: calc(8vw + 20px);
 }
 
 @media (max-width: 900px) {
     .skills-list {
-        gap: 20px;
         font-size: .9rem;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
     }
     .skills-list img {
-        width: 40px;
+        width: calc(19vw + 20px);
     }
 }

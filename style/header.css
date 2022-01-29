@@ -79,5 +79,6 @@ nav a:after {
   @media (max-width: 900px) {
     nav ul {
         gap: 12px;
+        font-size: 1.1rem;
     }
 }

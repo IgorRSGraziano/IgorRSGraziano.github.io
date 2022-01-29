@@ -1,7 +1,6 @@
 export default function mainContainerHighlight() {
     addEventListener('mousemove', element => {
         if (innerWidth > 900) {
-            document.querySelector('[data-main-container]')
             const mouseHoverElement = element.target
             if (mouseHoverElement.closest('[data-main-container]') !== null && !document.querySelector('[data-container-highlighter="true"]')) {
                 document.querySelectorAll('[data-main-container]').forEach(el => {

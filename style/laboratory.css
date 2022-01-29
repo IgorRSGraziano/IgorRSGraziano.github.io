@@ -2,18 +2,18 @@
 
 .laboratory-items {
     display: flex;
+    gap: 5vw;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 60px;
     z-index: 0;
 }
 
 .laboratory-item {
     background-color: var(--secondary-color);
-    width: 90px;
-    height: 100px;
+    width: 8vw;
+    height: 9vw;
     position: relative;
-    padding: 20px;
+    padding: 10px;
 }
 
 .laboratory-item::before {
@@ -30,9 +30,13 @@
 
 
 @media (max-width: 900px) {
+    .laboratory-items {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
     .laboratory-item {
-        width: 60px;
-        height: 70px;
+        width: 18vw;
+        height: 19vw;
         font-size: .8rem;
     }
 }
