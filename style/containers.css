@@ -40,8 +40,10 @@ h2 {
         height: auto;
         width: 80%;
         padding-bottom: 50px;
+        padding: 10px;
     }
     .container-one{
+        padding: 10px;
         margin: auto;
         height: auto;
         width: 80%;

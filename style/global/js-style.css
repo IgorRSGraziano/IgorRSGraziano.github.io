@@ -2,15 +2,17 @@
     filter: blur(1px);
 }
 
-@media (max-width: 900px) {
-    [data-main-container="false"] {
-        filter: none;
-    }
-}
-
 [data-main-container="true"] {
     z-index: 1;
 }
+
+@media (max-width: 900px) {
+    [data-main-container="false"] {
+        filter: none;
+        z-index: 1;
+    }
+}
+
 
 [data-container-highlighter="true"] {
     border-left: 5px solid var(--accent-color);
