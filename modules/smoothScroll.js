@@ -1,5 +1,5 @@
 export default function smoothScroll() {
-    const linksInternos = document.querySelectorAll('a[href^="#"]')
+    const internalLinks = document.querySelectorAll('a[href^="#"]')
     function scrollToSection(event) {
         event.preventDefault()
         const href = event.currentTarget.getAttribute('href')
@@ -10,7 +10,7 @@ export default function smoothScroll() {
         })
     }
 
-    linksInternos.forEach((link) => {
+    internalLinks.forEach((link) => {
         link.addEventListener('click', scrollToSection)
     })
 }

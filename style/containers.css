@@ -1,8 +1,7 @@
-.container-one {
+.container-one, .container-two {
     padding: 20px 50px 0px;
     width: 40vw;
     background-color: var(--primary-color);
-    margin: 10vh 0px 0% 12vh;
     max-height: 150vh;
     min-height: 87vh;
     border-radius: 7px;
@@ -11,17 +10,12 @@
     transition: .7s;
 }
 
+.container-one {
+    margin: 10vh 0px 0% 12vh;
+}
+
 .container-two {
-    padding: 20px 50px 0px;
-    width: 40vw;
-    background-color: var(--primary-color);
     margin: 0px 12vh 0px 0px;
-    min-height: 87vh;
-    max-height: 150vh;
-    border-radius: 7px;
-    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.185);
-    transition: .7s;
-    position: absolute;
     top: 0px;
     right: 0px;
 }
