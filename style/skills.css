@@ -15,7 +15,7 @@
 }
 
 .skills-list img {
-    width: calc(8vw + 20px);
+    width: calc(6vw + 20px);
 }
 
 @media (max-width: 900px) {

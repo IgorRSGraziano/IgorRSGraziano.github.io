@@ -10,8 +10,8 @@
 
 .laboratory-item {
     background-color: var(--secondary-color);
-    width: 8vw;
-    height: 9vw;
+    width: 6vw;
+    height: 7vw;
     position: relative;
     padding: 10px;
 }
