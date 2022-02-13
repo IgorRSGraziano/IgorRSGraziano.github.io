@@ -3,7 +3,7 @@
 <br><br>
 <div align="center">
 <img src="https://media.giphy.com/media/JUDKylzamKRTE3EA4y/giphy.gif" width="600px">
-<h3><a target="_blank" href="http://igorrsgraziano.github.io/">Para acessar o site clique aqui</a></h3>
+<h3><a target="_blank" href="https://igorrsgraziano.github.io/portfolio/">Para acessar o site clique aqui</a></h3>
 </div>
 
 <br><br>
